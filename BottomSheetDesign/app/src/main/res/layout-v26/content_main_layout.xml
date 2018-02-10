@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3f4ed"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.quoctuan.bottomsheetdesign.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/btn_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/show_bottom_sheet" />
+
+    <Button
+        android:id="@+id/btn_bottom_sheet_dialog"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/show_bottom_sheet_dialog" />
+
+    <Button
+        android:id="@+id/btn_bottom_sheet_dialog_fragment"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:text="@string/show_bottom_sheet_dialog_fragment" />
+    <!--<com.numetriclabz.numandroidcharts.SemiCircle-->
+        <!--android:id="@+id/semi"-->
+        <!--android:background="#ffff"-->
+        <!--app:semiInnerCircleRatio="120"-->
+        <!--app:semi_circle="true"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <ProgressBar
+        android:id="@+id/progressWheel"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="175dp"
+        android:layout_height="175sp"
+        android:min="500"
+        android:max="200"
+        android:progress="100"
+        android:secondaryProgress="0"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/progress_custom"/>
+</LinearLayout>

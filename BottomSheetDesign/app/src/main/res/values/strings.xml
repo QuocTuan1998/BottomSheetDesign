@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BottomSheetDesign</string>
+    <string name="order_details">Order Details</string>
+    <string name="_435_00">₹435.00</string>
+    <string name="chicken_fried_rice_1x1">Chicken Fried Rice 1x1</string>
+    <string name="paneer_tikka_1x2">Paneer Tikka 1x2</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="flat_no_404_skyline_apartments_vizag_500576">Flat No 404, Skyline Apartments, Vizag - 500576</string>
+    <string name="proceed_payment">PROCEED PAYMENT</string>
+    <string name="show_bottom_sheet">Show Bottom Sheet</string>
+    <string name="show_bottom_sheet_dialog">Show Bottom Sheet Dialog</string>
+    <string name="show_bottom_sheet_dialog_fragment">Show Bottom Sheet Dialog Fragment</string>
+</resources>
